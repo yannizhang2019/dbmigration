@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T22:23:30.034Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="JisFB2C5_Bz5an-xewZ1" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T22:30:34.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="EbRp2hOE5I-YaIMPX_9F" version="22.1.7" type="github">
   <diagram name="Page-1" id="4NYb0zLQct-NG_Pp62c1">
     <mxGraphModel dx="955" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,6 +18,14 @@
         </mxCell>
         <mxCell id="V-ygPXuaMBpOGokOMCwL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V-ygPXuaMBpOGokOMCwL-3" target="V-ygPXuaMBpOGokOMCwL-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-ygPXuaMBpOGokOMCwL-3" target="V-ygPXuaMBpOGokOMCwL-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="295" />
+              <mxPoint x="580" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="V-ygPXuaMBpOGokOMCwL-3" value="ODLM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="250" width="120" height="60" as="geometry" />
@@ -50,12 +58,17 @@
           <mxGeometry x="680" y="200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V-ygPXuaMBpOGokOMCwL-13" value="EDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="680" y="330" width="80" height="80" as="geometry" />
+          <mxGeometry x="660" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V-ygPXuaMBpOGokOMCwL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V-ygPXuaMBpOGokOMCwL-3" target="V-ygPXuaMBpOGokOMCwL-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-ygPXuaMBpOGokOMCwL-3" target="V-ygPXuaMBpOGokOMCwL-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="295" />
+              <mxPoint x="580" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="V-ygPXuaMBpOGokOMCwL-16" value="&lt;i&gt;determine the size for the database&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-16" value="&lt;i&gt;determine the size for the database service&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="250" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V-ygPXuaMBpOGokOMCwL-17" value="&lt;i&gt;monitor&lt;/i&gt; &lt;i&gt;OperandRequests&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -64,14 +77,47 @@
         <mxCell id="V-ygPXuaMBpOGokOMCwL-18" value="&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;create database&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="210" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V-ygPXuaMBpOGokOMCwL-19" value="&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;create database&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="340" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="V-ygPXuaMBpOGokOMCwL-20" value="&lt;i&gt;read/write database connection/config&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="340" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V-ygPXuaMBpOGokOMCwL-21" value="&lt;i&gt;read/write database access credentials&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-22" value="ConfigMap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-23" value="Secret" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="434" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-24" value="external DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-25" value="embedded DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-ygPXuaMBpOGokOMCwL-26" target="V-ygPXuaMBpOGokOMCwL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-ygPXuaMBpOGokOMCwL-26" target="V-ygPXuaMBpOGokOMCwL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-26" value="Postgresql Operator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-27" value="Cluster CR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="V-ygPXuaMBpOGokOMCwL-30" target="V-ygPXuaMBpOGokOMCwL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-30" value="datastore-edb" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-31" value="datastore-edb-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V-ygPXuaMBpOGokOMCwL-34" value="&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;create database&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="500" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
